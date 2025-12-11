@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Header() {
   return (
     <header style={headerStyle}>
-      <h1>TodoList</h1>
+      <h1>Todos los Usuarios</h1>
       <Link to="/" style={linkStyle}>Todos</Link> | <Link to="/about" style={linkStyle}>About</Link> | <Link to="/users" style={linkStyle}>Users</Link>
     </header>
   )
